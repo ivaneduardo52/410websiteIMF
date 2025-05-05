@@ -1,0 +1,167 @@
+/* 
+Author: Ivan Medina 
+Date: 04/28/2025
+Description: CSS code for all the pages of the website for the final
+*/
+
+/* Background for all the pages */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+/* Header style */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid gold;
+}
+
+/*Logo presentation*/ 
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image container */
+.image-placeholder {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed white;
+    margin: 20px auto;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.image-container img {
+    width: 80%;
+    max-width: 600px;
+    border: 3px solid gold;
+    border-radius: 10px;
+}
+
+/* Table formatting */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form formatting */
+form {
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+form button {
+    background-color: gold;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Embedded Video Styling */
+.video-section {
+    text-align: center;
+    margin: 30px auto;
+    color: white;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 80%;
+    margin: 0 auto;
+    border: 3px solid gold;
+    border-radius: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	frameborder="0"
+	title="Training Facility Video"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+	allow = fullscreen
+}
+
+/* Footer styling */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-top: 2px solid gold;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
